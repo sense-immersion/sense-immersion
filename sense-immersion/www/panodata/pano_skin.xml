@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.17">
+
+  
+  <!-- Spot Style - Default Polygon Spot Style 1 -->
+  <style name="PolygonDefaultPolygonSpotStyle1"
+           visible="false"
+           borderwidth="0"
+           borderwidthhover="4"
+           borderalpha="0.0" fillalpha="0.0"
+           bordercolorhover="0xd63022" borderalphahover="1"
+           fillcolorhover="0x000000"   fillalphahover="0"
+           capture="false"
+           onhover="onhoverPolygonDefaultPolygonSpotStyle1"
+           onout="onoutPolygonDefaultPolygonSpotStyle1"
+           devices="flash"
+           />
+  <action name="onhoverPolygonDefaultPolygonSpotStyle1">
+    showTooltip(hotspot);
+  </action>
+  <action name="onoverPolygonDefaultPolygonSpotStyle1">pauseautorotation();
+  </action>
+  <action name="onoutPolygonDefaultPolygonSpotStyle1">
+    hideTooltip();resumeautorotation();
+  </action>
+
+    
+  <!-- Spot Style - Exit -->
+  <style name="IconExit"
+         url="%FIRSTXML%/spots/_24069_user_defaultpoint1.png"
+         visible="false"
+         zoom="true"
+         
+         onloaded="if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););"
+         alpha="0.8"
+         onhover="onhoverIconExit"
+         onover="onoverIconExit"
+         onout="onoutIconExit"
+         height="35"
+         width="35"
+         />
+  <action name="onhoverIconExit">
+    showtooltip(hotspot);
+  </action>
+  <action name="onoverIconExit">
+tween(scale, 1.2);
+tween(alpha, 1);
+
+  </action>
+  <action name="onoutIconExit">
+    hideTooltip();
+tween(scale, 1);
+tween(alpha, 0.8);
+
+  </action>
+
+</krpano>

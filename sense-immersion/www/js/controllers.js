@@ -9,8 +9,9 @@ angular.module('starter.controllers', [])
   }
 })
 
-.controller('ChatDetailCtrl', function($scope, $stateParams, Chats) {
+.controller('ChatDetailCtrl', function($scope, $stateParams, Chats, $sce) {
   $scope.chat = Chats.get($stateParams.chatId);
+  $scope.currentProjectUrl = $sce.trustAsResourceUrl($scope.chat.pano);
 })
 
 .controller('AccountCtrl', function($scope) {
