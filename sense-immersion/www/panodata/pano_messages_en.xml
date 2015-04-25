@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+
+<!-- ************************ -->
+<!--         Messages         -->
+<!-- ************************ -->
+
+  <data name="en_project_title"><![CDATA[Bold]]></data>
+
+
+
+  <data name="en_pano11_title"><![CDATA[mainpeople]]></data>
+
+
+  <data name="en_pano19_title"><![CDATA[kitchenpeople_optimized_0]]></data>
+
+
+  <data name="en_pano52_title"><![CDATA[warroom_moody]]></data>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</krpano>
