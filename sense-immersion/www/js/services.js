@@ -15,13 +15,19 @@ angular.module('starter.services', [])
     name: 'City',
     lastText: 'Here is a city',
     face: 'http://bitspacedevelopment.com/wp-content/uploads/2014/05/skyline_downtown.jpg',
-    pano: 'http://bitspacedevelopment.com/sv/panos/city?html5=only'
+    pano: 'http://bitspacedevelopment.com/sv/panos/city'
   }, {
     id: 2,
     name: 'Assent Works',
     lastText: 'Come make some shit',
     face: 'http://bitspacedevelopment.com/wp-content/uploads/2015/04/Slide2.jpg',
-    pano: 'http://bitspacedevelopment.com/sv/panos/ass?html5=only'
+    pano: 'http://bitspacedevelopment.com/sv/panos/ass'
+  }, {
+    id: 3,
+    name: 'TOTT',
+    lastText: 'Trying on The Trades',
+    face: 'http://bitspacedevelopment.com/wp-content/uploads/2015/04/game.png',
+    pano: 'http://tott.e-apprentice.ca/'
   }];
 
   return {
