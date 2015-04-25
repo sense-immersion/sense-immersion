@@ -21,7 +21,7 @@ angular.module('starter.services', [])
     name: 'Assent Works',
     lastText: 'Come make some shit',
     face: 'http://bitspacedevelopment.com/wp-content/uploads/2015/04/Slide2.jpg',
-    pano: 'http://bitspacedevelopment.com/sv/panos/bold?html5=only'
+    pano: 'http://bitspacedevelopment.com/sv/panos/ass?html5=only'
   }];
 
   return {
