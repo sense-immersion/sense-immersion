@@ -6,29 +6,28 @@ angular.module('starter.services', [])
   // Some fake testing data
   var chats = [{
     id: 0,
-    name: 'Ben Sparrow',
-    lastText: 'You on your way?',
-    face: 'https://pbs.twimg.com/profile_images/514549811765211136/9SgAuHeY.png'
+    name: 'Bold',
+    lastText: 'Bold Innovation Group',
+    face: 'http://boldinnovationgroup.net/_assets/img/boldlogo.png',
+    pano: 'http://bitspacedevelopment.com/sv/panos/bold?html5=only'
   }, {
     id: 1,
-    name: 'Max Lynx',
-    lastText: 'Hey, it\'s me',
-    face: 'https://avatars3.githubusercontent.com/u/11214?v=3&s=460'
+    name: 'City',
+    lastText: 'Here is a city',
+    face: 'http://bitspacedevelopment.com/wp-content/uploads/2014/05/skyline_downtown.jpg',
+    pano: 'http://bitspacedevelopment.com/sv/panos/city'
   }, {
     id: 2,
-    name: 'Andrew Jostlin',
-    lastText: 'Did you get the ice cream?',
-    face: 'https://pbs.twimg.com/profile_images/491274378181488640/Tti0fFVJ.jpeg'
+    name: 'Assent Works',
+    lastText: 'Come make some shit',
+    face: 'http://bitspacedevelopment.com/wp-content/uploads/2015/04/Slide2.jpg',
+    pano: 'http://bitspacedevelopment.com/sv/panos/ass'
   }, {
     id: 3,
-    name: 'Adam Bradleyson',
-    lastText: 'I should buy a boat',
-    face: 'https://pbs.twimg.com/profile_images/479090794058379264/84TKj_qa.jpeg'
-  }, {
-    id: 4,
-    name: 'Perry Governor',
-    lastText: 'Look at my mukluks!',
-    face: 'https://pbs.twimg.com/profile_images/491995398135767040/ie2Z_V6e.jpeg'
+    name: 'TOTT',
+    lastText: 'Trying on The Trades',
+    face: 'http://bitspacedevelopment.com/wp-content/uploads/2015/04/game.png',
+    pano: 'http://tott.e-apprentice.ca/'
   }];
 
   return {
